@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sureshkare/node_js/issues"
   },
-  "homepage": "https://github.com/sureshkare/node_js#readme"
+  "homepage": "https://github.com/sureshkare/node_js#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
 }
