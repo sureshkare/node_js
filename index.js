@@ -9,7 +9,12 @@
 
 // console.log(greetings("Suresh"));
 
-const {add, sub} = require('./calculator');
+// const {add, sub} = require('./calculator');
 
-console.log(sub(6,3));
-console.log(add(4,6));
+// console.log(sub(6,3));
+// console.log(add(4,6));
+
+const path = require('path');
+
+const filePath = path.join("users","files","inf.txt");
+console.log(filePath);
